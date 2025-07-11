@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>7-12 Suvidha</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+<header>
+    <nav class="navbar enhanced-navbar">
+        <div class="nav-logo-container">
+            <img src="../7-12 Suvidha logo.svg" alt="7-12 Suvidha Logo" class="logo-image" />
+            <div class="tagline">Your Trusted Land Partner</div>
+        </div>
+        <div class="menu-toggle hamburger" id="mobile-menu" aria-label="Toggle navigation menu" role="button" tabindex="0">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+            <ul class="nav-links" id="nav-links">
+                <li class="close-menu-btn" id="close-menu-btn" aria-label="Close navigation menu" role="button" tabindex="0">&times;</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#buysell">Buy/Sell</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#feedbacks">Feedbacks</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" style="position: relative;">
+        <div class="slideshow-container">
+            <div class="hero-overlay"></div>
+        </div>
+    </section>
+
+    <!-- Discover Your Ideal Land Section -->
+    <section class="land-discovery-section section-backdrop animate-fade-in" style="width: 100%; max-width: 1200px; margin: 2rem auto; padding: 2rem 3rem; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);">
+        <div class="discovery-header" style="text-align: center; margin-bottom: 1rem;">
+            <h2 class="section-title" style="font-size: 2.5rem; font-weight: 800; color: #2980b9; margin-bottom: 0.5rem;">
+                Discover Your Ideal Land
+            </h2>
+            <p class="discovery-subtitle" style="font-size: 1.2rem; color: #555; font-style: italic; margin: 0;">
+                Find the perfect agricultural property tailored to your needs
+            </p>
+        </div>
+        <form class="search-form" role="search" aria-label="Land search" style="display: flex; max-width: 700px; margin: 0 auto; height: 40px;">
+            <input 
+                type="search" 
+                name="search" 
+                placeholder="Search by location, size, or type..."
+                aria-label="Search land properties"
+                required
+                style="flex: 4; padding: 0 1rem; font-size: 1rem; border: 2px solid #2980b9; border-radius: 8px 0 0 8px; outline: none; height: 100%;"
+            />
+            <button type="submit" class="btn btn-primary search-btn" style="flex: 1; border-radius: 0 8px 8px 0; padding: 0 0.5rem; font-weight: 700; font-size: 0.9rem; height: 100%;">
+                Search
+            </button>
+        </form>
+        <div class="quick-filters" style="margin-top: 1rem; text-align: center;">
+            <div class="filter-tabs" style="display: inline-flex; gap: 1rem;">
+                <button type="button" class="filter-tab active" data-filter="all" style="padding: 0.5rem 1rem; border-radius: 20px; background-color: #2980b9; color: white; border: none; cursor: pointer; font-weight: 600;">
+                    All 
+                </button>
+                <button type="button" class="filter-tab" data-filter="recently-added" style="padding: 0.5rem 1rem; border-radius: 20px; background-color: #cbd6e6; color: #1a3557; border: none; cursor: pointer; font-weight: 600;">
+                    Recently Added
+                </button>
+                <button type="button" class="filter-tab" data-filter="Recommended" style="padding: 0.5rem 1rem; border-radius: 20px; background-color: #cbd6e6; color: #1a3557; border: none; cursor: pointer; font-weight: 600;">
+                    Recommended
+                </button>
+                <button type="button" class="filter-tab" data-filter="most-searched" style="padding: 0.5rem 1rem; border-radius: 20px; background-color: #cbd6e6; color: #1a3557; border: none; cursor: pointer; font-weight: 600;">
+                    Most Searched
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- Brochure Section -->
+<section class="section-backdrop brochure-section">
+            <div style="flex: 1;">
+                <h2 class="section-title">
+                    Make your Land <span class="highlight">Brochure</span>
+                </h2>
+                <p>
+                    Create a customized brochure for your property and boost its market appeal — a powerful tool to attract
+                    buyers, now available with 7-12 Suvidha.
+                </p>
+                <div class="brochure-actions">
+                    <a
+                        href="../Sample Land-712 suvidha.pdf"
+                        class="btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >View Demo</a
+                    >
+                    <a href="#" class="btn btn-primary">Get your Brochure</a>
+                </div>
+            </div>
+            <div style="flex: 1;">
+                <img
+                    src="Photos/land-brochure.png"
+                    alt="Land Brochure"
+                    style="max-width: 600px; height: auto; border-radius: 12px"
+                />
+            </div>
+        </section>
+
+        <!-- Lands Listing Section -->
+        <section class="section-backdrop what-looking-section" id="whatLooking">
+            <h2 class="section-title">What you are looking for??</h2>
+            <p class="section-description">Click on the options below to access forms tailored to your specific needs.</p>
+            <div class="what-looking-container">
+                <div class="what-looking-item">Land</div>
+                <div class="what-looking-item">Services</div>
+            </div>
+        </section>
+
+        <section class="section-backdrop services-section" id="services">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-container" id="servicesContainer"></div>
+            <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+                <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+                    <button class="modal-close" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <button class="btn-view-demo" id="viewDemoBtn">VIEW DEMO</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-backdrop special-request-section" id="specialRequest">
+            <h2 class="section-title">Special Request</h2>
+            <div class="special-request-container">
+                <div class="special-request-item">Sales PDF</div>
+                <div class="special-request-item">NA Land</div>
+                <div class="special-request-item">Title Report</div>
+                <div class="special-request-item">7/12 Sudhara</div>
+            </div>
+            <div class="special-request-details-container" id="specialRequestDetailsContainer">
+                <h3 id="specialRequestTitle"></h3>
+                <p id="specialRequestDescription"></p>
+                <button class="btn-view-demo" id="specialRequestViewDemoBtn">VIEW DEMO</button>
+            </div>
+        </section>
+
+        <section class="section-backdrop feedbacks-section" id="feedbacks">
+            <h2 class="section-title">Feedbacks</h2>
+            <div class="feedbacks-container">
+                <div class="feedback-item feedback-slide active">
+                    <p>“I’m from Kalri, Mehsana. I recently completed my Land Share Entry and Title Report work. The service was quick, clear, and very professional — I truly appreciate the smooth handling of everything!”</p>
+                    <p><strong>- Dharmendra Gala</strong></p>
+                </div>
+                <div class="feedback-item feedback-slide">
+                    <p>“We are from Motiboru, Dholka. Our work related to the Title Report and Digital Master File was completed very smoothly. The entire process was professional and timely – we are very happy with the service!”</p>
+                    <p><strong>- Raghuvirsinh Chudasama and Virenkumar Parmar</strong></p>
+                </div>
+                <div class="feedback-item feedback-slide">
+                    <p>“I’m from Lakhtar, Surendranagar. I recently completed my 7/12 extract update and land inheritance entry. The service was smooth and hassle-free — I truly appreciate the prompt and helpful support!”</p>
+                    <p><strong>- Raxit Patel</strong></p>
+                </div>
+                <div class="feedback-item feedback-slide">
+                    <p>“I live in the USA and recently completed all my land-related work at Dudhvara, Baroda – including the 7/12 extract, land checklist, and master file. The entire process was smooth and well-managed. I'm really happy with the quick and professional support I received from 7/12 Suvidha !”</p>
+                    <p><strong>- Minish Bhai</strong></p>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <button class="nav-btn active" data-index="0" aria-label="Slide 1"></button>
+                <button class="nav-btn" data-index="1" aria-label="Slide 2"></button>
+                <button class="nav-btn" data-index="2" aria-label="Slide 3"></button>
+                <button class="nav-btn" data-index="3" aria-label="Slide 4"></button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="new-footer">
+        <div class="footer-container">
+            <div class="footer-logo-section">
+                <img src="../7-12 Suvidha logo.svg" alt="7-12 Suvidha Logo" class="footer-logo" />
+            </div>
+            <div class="footer-actions-section">
+                <a href="#" class="footer-action-btn">તમારી જમીનની આ પ્રકારની વિગતો બનાવવા માટે અહીં ક્લિક કરો</a>
+                <a href="#" class="footer-action-btn">અમારી સેવઐ મેળવવા માટે અહીં ક્લિક કરો</a>
+            </div>
+            <div class="footer-info-section">
+                <h4>Address</h4>
+                <p>801, Palak Prime, ISKCON Ambli Road,<br />Ahmedabad, Gujarat-380058, India</p>
+                <h4>Contact Us</h4>
+                <p><a href="tel:+919071292712" class="footer-contact-link">+91 90712 92712</a></p>
+            </div>
+        </div>
+        <!-- Removed social media links -->
+        <!-- <div class="footer-actions-section">
+            <a href="https://wa.me/919071292712" target="_blank" rel="noopener noreferrer" class="footer-action-btn whatsapp-btn" aria-label="WhatsApp">&#128241; WhatsApp</a>
+            <a href="tel:+919071292712" class="footer-action-btn call-btn" aria-label="Call Us">&#128222; Call Us</a>
+        </div> -->
+        <p class="footer-copy">&copy; 2024 7-12 Suvidha. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="hero-bg-slideshow.js"></script>
+    <script src="../feedback-slider.js"></script>
+
+
+    <!-- Floating Call and WhatsApp Buttons -->
+    <div class="floating-action-buttons">
+        <a href="tel:+919071292712" class="floating-btn call-btn" aria-label="Call Us"><i class="fas fa-phone"></i></a>
+        <a href="https://wa.me/919071292712" target="_blank" rel="noopener noreferrer" class="floating-btn whatsapp-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</body>
+</html>
